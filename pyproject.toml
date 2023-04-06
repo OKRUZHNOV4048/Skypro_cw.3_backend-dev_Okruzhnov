@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "skypro-cw-2-backend-dev-okruzhnov"
+version = "0.1.0"
+description = "account transactions 0.1.0"
+authors = ["Aleksei Okruzhnov <ale.okr@gmail.com>"]
+readme = "README.md"
+packages = [{include = "skypro_cw"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
