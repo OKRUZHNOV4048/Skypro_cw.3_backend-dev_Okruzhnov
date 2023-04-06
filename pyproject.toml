@@ -9,6 +9,7 @@ packages = [{include = "skypro_cw"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 pillow = "^9.5.0"
+jsonschema = "^4.17.3"
 
 
 [build-system]
