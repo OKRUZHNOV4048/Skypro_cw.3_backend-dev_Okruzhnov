@@ -43,7 +43,7 @@ def result_output():
                                        '** **** ' + operation.to_account[-4:]
 
         result_report.append(f"{date_operation.strftime('%d.%m.%Y')} {operation.description} \n"
-                             f"{operation.from_account}-> {operation.to_account} \n"
+                             f"{operation.from_account} -> {operation.to_account} \n"
                              f"{operation.amount} {operation.name} \n")
 
     return result_report
