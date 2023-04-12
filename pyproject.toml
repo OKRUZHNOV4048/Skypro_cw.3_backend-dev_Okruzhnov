@@ -10,7 +10,11 @@ packages = [{include = "skypro_cw"}]
 python = "^3.11"
 pillow = "^9.5.0"
 jsonschema = "^4.17.3"
+pytest = "^7.3.0"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.0.0"
 
 [build-system]
 requires = ["poetry-core"]

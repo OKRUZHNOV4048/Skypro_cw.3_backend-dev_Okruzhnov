@@ -1,12 +1,12 @@
 import json
 
 
-def load_data():
+def load_data(input_data):
     """
     Загружает данные по операциям клиента из файла operations.json в формате JSON, распаковывает из JSON и преобразует
     в объект Python. Возвращает list со вложенными dict, содержащий данные по последним пяти проведенным операциям.
     """
-    with open("operations.json", "r", encoding="utf-8") as file:
+    with open(input_data, "r", encoding="utf-8") as file:
         operations_data = json.load(file)
 
     # Неупорядоченный по датам список выполненных операций, т.е. имеющих статус 'EXECUTED'.

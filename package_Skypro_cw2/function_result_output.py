@@ -1,12 +1,10 @@
 from datetime import datetime
-from package_Skypro_cw2.function_dict_format_operations import dict_format_operations
 from package_Skypro_cw2.classes import Operation
 
-sorted_operations = dict_format_operations()
 result_report = []
 
 
-def result_output():
+def result_output(sorted_operations):
     """
     Принимает упорядоченный список со вложенными словарями, в том числе, включающих параметры операций,
     для которых не оказан источник перевода. Возвращает список строк, отформатированных под условия задания.

@@ -1,9 +1,4 @@
-from package_Skypro_cw2.function_load_data import load_data
-
-sorted_operations = load_data()
-
-
-def dict_format_operations():
+def dict_format_operations(sorted_operations):
     """
     Для последующего создания экземпляров класса Operation, описывающих те переводы, которые не имеют отправителя:
     1. Принимает list со вложенными dict, содержащий данные по последним пяти проведенным операциям;
