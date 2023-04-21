@@ -1,4 +1,4 @@
-from package_Skypro_cw2.function_result_output import result_output
+from package_Skypro_cw3.function_result_output import result_output
 
 
 def test_result_output():

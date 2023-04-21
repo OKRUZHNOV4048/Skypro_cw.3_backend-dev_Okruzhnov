@@ -1,4 +1,4 @@
-from package_Skypro_cw2.function_load_data import load_data
+from package_Skypro_cw3.function_load_data import load_data
 
 input_data = "operations.json"
 

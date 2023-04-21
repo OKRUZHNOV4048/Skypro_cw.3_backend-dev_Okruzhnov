@@ -1,5 +1,5 @@
 from datetime import datetime
-from package_Skypro_cw2.classes import Operation
+from package_Skypro_cw3.classes import Operation
 
 result_report = []
 
